@@ -1,0 +1,245 @@
+/* 快捷菜单 */
+
+.shortcut .wrapper{
+    height: 60px;
+    border-bottom: 1px solid #f1f1f1;
+    background-color: #fff;
+}
+.shortcut .wrapper ul{
+    float: left;
+    margin-left: 68px;
+}
+
+.shortcut .wrapper ul li {
+    float: left;
+    line-height: 57px;
+    margin-right: 25px;
+}
+.shortcut .wrapper ul li a{
+    display: block;
+    font-size: 19px;
+    /* margin-right: 25px; */
+    /* line-height: 60px; */
+
+}
+.wrapper img{
+    height: 60px;
+    width: 107px;
+}
+/* 鼠标移动字体变化 */
+.wrapper ul li a:hover{
+    color: #7ca4ff;
+    border-bottom: 3px solid #7ca4ff;
+
+}
+
+.box2 {
+	background-color: #fff;
+    /* width: 100%; */
+    height: 45px;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 2px solid #f1f1f1;
+	
+}
+.box2 .midnav  {
+	
+	width: 960px;
+    height: 45px;
+    margin: 0 auto;
+}
+.box2 .midnav ul {
+	float: left;
+	/* //list-style: none; */
+} 
+
+.box2 .midnav ul li {
+	float: left;
+    font-size: 16px;
+    margin-right: 27px;
+}
+
+.box2 .midnav ul li a{
+	line-height: 45px;
+}
+
+.box2 .midnav ul li a:hover{
+	color: #7ca4ff;
+}
+
+
+.box3{
+	width: 960px;
+  	margin: 0 auto;
+  	margin-top: 25px;
+ 	overflow:hidden;
+}
+
+.box3 .Essay{
+	background-color: #fff;
+  	width: 700px;
+  	float: left;
+}
+
+.box3 .Essay .Tbr{
+	padding-left: 12px;
+  	width: 700px;
+  	height: 46px;
+  	border-bottom: 1px solid #f2f2f2;
+}
+
+.box3 .Essay .Tbr ul{
+	float: left;
+  }
+.box3 .Essay .Tbr ul li {
+	float: left;
+	line-height: 46px;
+  }
+.box3 .Essay .Tbr ul li a{
+	display: block;
+	padding: 0 12px;
+	font-size: 14px;
+	border-left: 1px solid #eaeaea;
+  }
+.box3 .Essay .Tbr ul li a:hover{
+	color: #7ca4ff;
+  }
+
+.box3 img{
+	height: 150px;
+    width: 200px;
+}
+.box3 .Essay .message{
+	padding-left: 12px;
+  	width: 700px;
+  	height: 200px;
+  	border-bottom: 1px solid #f2f2f2;
+}
+.box3 .Essay .message img{
+	float:right;
+	margin-right:10px;
+}
+.box3 .Essay .message .title{
+	margin-left:10px;
+	margin-top:30px;
+}
+.box3 .Essay .message .author{
+	margin-left:10px;
+	margin-top:10px;
+	border-right: 1px solid #eaeaea
+}
+.box3 .Essay .message .author .data{
+	float:right;
+	margin-right: 100px;
+}
+.tj{
+	border: 0px !important;
+  }
+
+  
+/* 内容部分 */
+.Content{
+	height: 320px;
+  }
+  
+  /* 广告部分 */
+  .ad{
+	width: 240px;
+	float: right;
+  }
+  .ad .adImages img{
+	height: 200px;
+	width: 240px;
+	margin-bottom: 15px;
+  }
+  /* 下载app */
+  .app{
+  
+	width: 240px;
+	height: 74px;
+	background-color: #fff;
+	padding: 12px;
+	margin-bottom: 15px;
+	border: 1px solid #f1f1f1;
+  }
+  
+  .app img{
+	width: 50px;
+	height: 50px;
+	float: left;
+    display: inline;
+    margin-top: 0;
+    margin-left: 5px;
+  }
+  .appmanage{
+	float: right;
+	width: 144px;
+	height: 48px;
+  }
+  .title {
+	float: left;
+    display: inline;
+    margin-top: 20;
+    margin-left: 7px;
+  }
+  .content{
+	float: left;
+	display: inline;
+	font-size: 12px;
+	margin-left: 7px;
+	margin-top: 1px;
+	color: #86909c;
+	
+  }
+  /* .appmanage .appTitle{
+	margin-bottom: 1px;
+	font-size: 14px;
+  }
+  .appmanage .appContent{
+	font-size: 12px;
+	color: #86909c;
+	margin-top: 1px;
+  } */
+  
+  /* 作者榜 */
+  .authorList{
+	height: 340px;
+	background-color: #fff;
+	border: 1px solid #f1f1f1;
+  }
+  .authorList header{
+	padding: 18px 15px;
+	border-bottom: 1px solid #f1f1f1;
+  }
+  .authorList .author{
+	height: 70px;
+	padding: 12px 15px;
+  }
+  
+  .author img{
+	height: 45px;
+	width: 45px;
+	border-radius: 100%;
+	float:left;
+  }
+  .author .information{
+	
+	margin-left:10px;
+	/* display: inline; */
+	 /* vertical-align:middle; 使文字与图片对齐 */
+	
+  }
+  .author .information span{
+	font-size: 14px;
+  }
+  .author .information img{
+	float:right;
+
+	width: 35px;
+	height: 16px;
+  }
+  .author .information .aboutTheAuthor{
+	width: 157px;
+	height: 15.48px;
+	font-size: 12px;
+	overflow: hidden; /* 多余部分隐藏  */
+  }
